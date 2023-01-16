@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'AngularFrontProject';
+  sideBerOpen=true;
+  sideBarToggler() {
+    this.sideBerOpen = !this.sideBerOpen;
+  }
 }
