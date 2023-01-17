@@ -1,8 +1,114 @@
-<div class="container-fluid page">
-    <div class="d-flex page__box p-3 mt-2">Home</div>
-    <div class="page__content shadow p-3 position-relative">
-      <div class="page__content-data position-absolute text-center">
-        Home Content Goes Here
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=s, initial-scale=1.0" />
+  <title>Card Design</title>
+  <style>
+    .card-containers {
+      box-sizing: border-box;
+      display: flex;
+      /* flex-wrap: wrap;
+            flex-direction: row; */
+      flex-flow: row wrap;
+      /* justify-content: space-evenly; */
+      justify-content: center;
+      align-items: center;
+      /* max-width: 80%; */
+      margin: 0 auto;
+      background-color: cadetblue;
+      padding: 20px 0;
+    }
+
+    .card {
+      width: 300px;
+      box-shadow: 1px 2px 4px black;
+      box-sizing: border-box;
+      margin: 10px;
+    }
+
+    .img-style {
+      width: 100%;
+      display: block;
+    }
+
+    .card-body {
+      padding: 5px;
+      background-color: #761f8c;
+    }
+
+    .card-body .card-title {
+      font-size: 2rem;
+      text-align: center;
+      color: white;
+    }
+    button{
+      font-size: 2rem;
+      text-align: center;
+      color: black;
+      
+    }
+
+    .card-body .card-description {
+      text-align: justify;
+      line-height: 1.5;
+      /* letter-spacing: 2px; */
+      color: lightblue;
+    }
+
+    .card:hover {
+      box-shadow: 6px 12px 10px white;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="card-containers">
+    <div class="card">
+      <img class="img-style" src="https://i.guim.co.uk/img/media/566197589db441c6b049bb9fee92ee6ad1a25f4a/0_67_3000_1800/master/3000.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=0f6b2779730a1e54d2fc955fab48ac20 "/>
+      <div class="card-body">
+        <div class="card-title">HTML</div>
+        
+        <div class="card-description">
+          <p>
+            Clita sed amet est ipsum tempor lorem ea nonumy takimata. Sit
+            
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="img-style" src="https:eatthis.com/wp-content/uploads/sites/4/2019/10/oreo.jpg " />
+      <div class="card-body">
+        <div class="card-title" >Oreo Choklet</div>
+        <p>Add to cart</p>
+        <div class="card-description">
+          <p>
+            Clita sed amet est ipsum tempor lorem ea nonumy takimata. Sit
+            
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <img class="img-style"
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTjnbYhuXAzBFDgQ8bG0Yh2tWNMg3hRH0zJQoKj3xzsU9Nrksfk8v7recivR45gKf-Mi0&usqp=CAU"
+        alt="" />
+      <div class="card-body">
+        <div class="card-title">Girlic soch</div>
+        <button>Add to curt</button>
+        <div class="card-description">
+          <p>
+            Clita sed amet est ipsum tempor lorem ea nonumy takimata. Sit
+           
+          </p>
+        </div>
       </div>
     </div>
   </div>
+</body>
+
+</html>

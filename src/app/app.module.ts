@@ -9,6 +9,7 @@ import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
+import { ProductComponent } from './admin/product/product.component';
 
 
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -18,6 +19,10 @@ import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { LoginComponent } from './component/login/login.component';
+import {MatSelectModule} from '@angular/material/select';
+import { SellerpanelComponent } from './admin/sellerpanel/sellerpanel.component';
+
+
 
 @NgModule({
   declarations: [
@@ -26,7 +31,11 @@ import { LoginComponent } from './component/login/login.component';
     HeaderComponent,
     SidenavComponent,
     DashboardComponent,
-    LoginComponent
+    LoginComponent,
+    ProductComponent,
+    SellerpanelComponent,
+    
+  
   ],
   imports: [
     BrowserModule,
@@ -39,6 +48,7 @@ import { LoginComponent } from './component/login/login.component';
     MatIconModule,
     MatDividerModule,
     MatListModule,
+    MatSelectModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
