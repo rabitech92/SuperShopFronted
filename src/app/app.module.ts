@@ -20,7 +20,13 @@ import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
 import { LoginComponent } from './component/login/login.component';
 import {MatSelectModule} from '@angular/material/select';
+import {MatCardModule} from '@angular/material/card';
 import { SellerpanelComponent } from './admin/sellerpanel/sellerpanel.component';
+import { ProductlistComponent } from './admin/productlist/productlist.component';
+import { ProductheaderComponent } from './admin/productheader/productheader.component';
+import { AccounceComponent } from './admin/accounce/accounce.component';
+import { DelivaryComponent } from './component/delivary/delivary.component';
+import { OrderComponent } from './component/order/order.component';
 
 
 
@@ -34,6 +40,11 @@ import { SellerpanelComponent } from './admin/sellerpanel/sellerpanel.component'
     LoginComponent,
     ProductComponent,
     SellerpanelComponent,
+    ProductlistComponent,
+    ProductheaderComponent,
+    AccounceComponent,
+    DelivaryComponent,
+    OrderComponent,
     
   
   ],
@@ -49,6 +60,7 @@ import { SellerpanelComponent } from './admin/sellerpanel/sellerpanel.component'
     MatDividerModule,
     MatListModule,
     MatSelectModule,
+    MatCardModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
