@@ -27,6 +27,7 @@ import { ProductheaderComponent } from './admin/productheader/productheader.comp
 import { AccounceComponent } from './admin/accounce/accounce.component';
 import { DelivaryComponent } from './component/delivary/delivary.component';
 import { OrderComponent } from './component/order/order.component';
+import { UserComponent } from './admin/user/user.component';
 
 
 
@@ -45,6 +46,7 @@ import { OrderComponent } from './component/order/order.component';
     AccounceComponent,
     DelivaryComponent,
     OrderComponent,
+    UserComponent,
     
   
   ],
