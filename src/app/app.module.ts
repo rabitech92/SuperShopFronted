@@ -21,6 +21,8 @@ import { MatListModule } from '@angular/material/list';
 import { LoginComponent } from './component/login/login.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
+import {MatTableModule} from '@angular/material/table';
+
 import { SellerpanelComponent } from './admin/sellerpanel/sellerpanel.component';
 import { ProductlistComponent } from './admin/productlist/productlist.component';
 import { ProductheaderComponent } from './admin/productheader/productheader.component';
@@ -63,6 +65,7 @@ import { UserComponent } from './admin/user/user.component';
     MatListModule,
     MatSelectModule,
     MatCardModule,
+    MatTableModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
