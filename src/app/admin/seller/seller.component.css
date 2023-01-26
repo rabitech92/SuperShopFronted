@@ -17,7 +17,17 @@ html{
     width: fit-content;
     
 } */
+.card-header{
+    text-align: center;
+    color: #405D9D;
+    background: blueviolet;
+}
 
+h1{
+    color: #405D9D;
+    position: relative;
+    
+}
 
 .divider-text {
     position: relative;
