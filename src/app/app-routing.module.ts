@@ -29,6 +29,7 @@ const routes: Routes = [
   {path :'delivary', component:DelivaryComponent},
   {path :'order', component:OrderComponent},
   {path :'user', component:UserComponent},
+  
 
 
 ];

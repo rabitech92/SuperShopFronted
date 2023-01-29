@@ -30,6 +30,8 @@ import { AccounceComponent } from './admin/accounce/accounce.component';
 import { DelivaryComponent } from './component/delivary/delivary.component';
 import { OrderComponent } from './component/order/order.component';
 import { UserComponent } from './admin/user/user.component';
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
 
 
 
@@ -56,6 +58,9 @@ import { UserComponent } from './admin/user/user.component';
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
+    FormsModule,
+    ReactiveFormsModule,
+    HttpClientModule,
 
     MatSidenavModule,
     MatToolbarModule,
@@ -66,6 +71,7 @@ import { UserComponent } from './admin/user/user.component';
     MatSelectModule,
     MatCardModule,
     MatTableModule,
+    
   ],
   providers: [],
   bootstrap: [AppComponent]
