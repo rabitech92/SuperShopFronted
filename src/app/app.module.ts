@@ -1,15 +1,20 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
-
-
+import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { HttpClientModule } from '@angular/common/http';
+import { FormControl } from '@angular/forms';
+import { FormGroup,FormBuilder } from '@angular/forms';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
-import { AppComponent } from './app.component';
+import { AppComponent } from './app.component'
+
+
 import { HomeComponent } from './component/home/home.component';
 import { HeaderComponent } from './component/header/header.component';
 import { SidenavComponent } from './component/sidenav/sidenav.component';
 import { DashboardComponent } from './component/dashboard/dashboard.component';
 import { ProductComponent } from './admin/product/product.component';
+import { LoginComponent } from './component/login/login.component';
 
 
 import { MatSidenavModule } from '@angular/material/sidenav';
@@ -18,7 +23,6 @@ import { MatMenuModule } from '@angular/material/menu';
 import { MatIconModule } from '@angular/material/icon';
 import { MatDividerModule } from '@angular/material/divider';
 import { MatListModule } from '@angular/material/list';
-import { LoginComponent } from './component/login/login.component';
 import {MatSelectModule} from '@angular/material/select';
 import {MatCardModule} from '@angular/material/card';
 import {MatTableModule} from '@angular/material/table';
@@ -30,8 +34,9 @@ import { AccounceComponent } from './admin/accounce/accounce.component';
 import { DelivaryComponent } from './component/delivary/delivary.component';
 import { OrderComponent } from './component/order/order.component';
 import { UserComponent } from './admin/user/user.component';
-import { FormsModule, ReactiveFormsModule } from '@angular/forms';
-import { HttpClientModule } from '@angular/common/http';
+
+
+
 
 
 
@@ -52,6 +57,7 @@ import { HttpClientModule } from '@angular/common/http';
     OrderComponent,
     UserComponent,
     
+    
   
   ],
   imports: [
@@ -61,6 +67,9 @@ import { HttpClientModule } from '@angular/common/http';
     FormsModule,
     ReactiveFormsModule,
     HttpClientModule,
+    FormControl,
+    FormGroup,
+    FormBuilder,
 
     MatSidenavModule,
     MatToolbarModule,
